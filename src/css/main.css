@@ -101,3 +101,45 @@ margin-top: 64px;
     font-size: 20px;
   }
 }
+/* Garden Rules */
+.rules-list{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.rules-item{
+    border-radius: 16px;
+        padding: 16px;
+        width: 343px;
+            height: auto;
+    box-shadow: 2px 4px 4px 0 #f0ebe5;
+        background: #e5e5ef;
+}
+.rules-wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+.rules-title{
+    font-weight: 700;
+        font-size: 18px;
+}
+.rules-list-item{
+    padding-left: 30px;
+    list-style-type: disc;
+}
+@media only screen and (min-width: 1440px) {
+ .rules-list{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 32px;
+    row-gap: 18px;
+ }
+ .rules-item{
+    width: 544px;
+ }
+ .rules-title{
+    font-size: 20px;
+ }
+}
