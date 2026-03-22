@@ -17,10 +17,65 @@
     <script type="module" crossorigin src="/softledger/index.js"></script>
     <link rel="modulepreload" crossorigin href="/softledger/assets/vendor-HTdmVadK.js">
     <link rel="stylesheet" crossorigin href="/softledger/assets/vendor-vL0Q9Dr-.css">
-    <link rel="stylesheet" crossorigin href="/softledger/assets/styles-BHDVVjX4.css">
+    <link rel="stylesheet" crossorigin href="/softledger/assets/styles-iswTT5Ak.css">
   </head>
   <body>
-    
+    <header class="header" id="site-header">
+    <div class="header-container container">
+        <a class="header-logo" href="./#home">
+            <img src="/softledger/assets/logo-CItcgV_9.png" alt="Signal Plain" loading="lazy">
+        </a>
+        <button type="button" class="menu-button" aria-label="menu toggle">
+            <span class="icon">
+<svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M34 30L10 30" stroke="#514F8F" stroke-width="2" stroke-linecap="round" />
+    <path d="M34 22L10 22" stroke="#514F8F" stroke-width="2" stroke-linecap="round" />
+    <path d="M34 14L10 14" stroke="#514F8F" stroke-width="2" stroke-linecap="round" />
+</svg>
+            </span>
+        </button>
+
+        <nav class="nav ">
+            <ul class="navigation-list">
+                <li class="navigation-item">
+                    <a class="links" href="./#home">Home</a>
+                </li>
+                <li class="navigation-item">
+                    <a class="links" href="./#garden">The Garden</a>
+                </li>
+                <li class="navigation-item">
+                    <a class="links" href="./#how">How It Works</a>
+                </li>
+                <li class="navigation-item">
+                    <a class="links" href="./#rules">Balance System</a>
+                </li>
+                <li class="navigation-item">
+                    <a class="links" href="./#growth">Growth</a>
+                </li>
+                <li class="navigation-item">
+                    <a class="links" href="./#testimonials">Testimonials</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<!-- Mobile menu -->
+<div id="modalWindow" class="modal">
+    <ul class="menu-list">
+        <li class="menu-item"><a class="menu-list-item" href="./#home">Home</a></li>
+        <li class="menu-item"><a class="menu-list-item" href="./#garden">The Garden</a></li>
+        <li class="menu-item"><a class="menu-list-item" href="./#how">How It Works</a></li>
+        <li class="menu-item">
+            <a class="menu-list-item" href="./#rules">Balance System</a>
+        </li>
+        <li class="menu-item">
+            <a class="menu-list-item" href="./#growth">Growth</a>
+        </li>
+        <li class="menu-item">
+            <a class="menu-list-item" href="./#testimonials">Testimonials</a>
+        </li>
+    </ul>
+</div>
 
     <main>
       <!-- Loads the specified .html file -->
@@ -314,6 +369,15 @@
         <p class="footer-text">© 2026 — All rights reserved. softledger.space</p>
     </div>
 </footer>
-
+<div id="cookie-popup" class="cookie-popup">
+    <div class="popup-wrapper">
+        <p class="cookie-class">We use cookies to improve your experience on our website. By browsing this website, you
+            agree to our use of cookies.</p>
+        <div class="cookie-buttons">
+            <button id="accept-cookies" class="btn-accept">Accept</button>
+            <button id="decline-cookies" class="btn-decline">Decline</button>
+        </div>
+    </div>
+</div>
   </body>
 </html>
