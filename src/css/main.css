@@ -143,3 +143,30 @@ margin-top: 64px;
     font-size: 20px;
  }
 }
+/* Growth */
+.growth-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+.growth-list{
+    margin-top: 16px;
+    margin-bottom: 16px;
+    font-weight: 700;
+        font-size: 18px;
+padding-left: 30px;
+list-style-type: disc;
+}
+@media only screen and (min-width: 1440px) {
+ .growth-container{
+    flex-direction: row;
+    gap: 96px;
+ }
+ .growth-wrapper{
+    width: 544px;
+ }
+ .growth-list{
+    font-size: 20px;
+ }
+}
