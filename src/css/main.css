@@ -170,3 +170,42 @@ list-style-type: disc;
     font-size: 20px;
  }
 }
+/* Experience */
+.experience-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+@media only screen and (min-width: 1440px) {
+ .experience-container{
+    flex-direction: row-reverse;
+    gap: 96px;
+ }
+}
+/* Testimonials */
+.my-swiper .swiper-slide{
+border-radius: 16px;
+    padding: 8px 16px;
+    box-shadow: 2px 4px 4px 0 #f0ebe5;
+        background: #e5e5ef;
+font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: normal;
+}
+.author{
+    margin-top: 16px;
+    font-weight: 700;
+        font-size: 18px;
+        text-align: right;
+        letter-spacing: normal;
+}
+@media only screen and (min-width: 1440px) {
+.my-swiper .swiper-slide {
+    font-size: 18px;
+}
+.author{
+    font-size: 20px;
+}
+}
